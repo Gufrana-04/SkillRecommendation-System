@@ -1,8 +1,10 @@
 Skill Recommendation Engine — Algorithm Approach
 Problem Summary
+
 Given a student's history of completed skill levels (with scores and time spent), recommend the top 3 next levels they are most likely to attempt and pass (estimated pass rate > 70%).
 
 Algorithm: Similarity-Based Collaborative Filtering
+
 The engine follows a classic user-based collaborative filtering pipeline adapted for skill progression data.
 Step 1 — Feature Engineering
 Each student is represented as a vector of length 20 (one dimension per skill level). The encoding captures three states:
